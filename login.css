@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', sans-serif ;
+  background: url('furniture.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+ header {
+  background-color: #1e334e;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+}
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  backdrop-filter:none; 
+  background-color:none; 
+}
+
+
+.login-box {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 16px ;
+  width: 320px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #1e334e; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fdf9f4;
+}
+
+
+.login-box .checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.login-box a {
+  color: #1e334e;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+
+.login-box button {
+  width: 100%;
+  background-color: #557eb4;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+
+.login-box button:hover {
+  background-color: #557eb4;
+}
+
+
+.login-box .register {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+ footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #efebe9;
+            color: #1e334e;
+            margin-top: 30px;
+        }
